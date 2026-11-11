@@ -1,0 +1,75 @@
+# How to do it in the PromptVu app
+
+This file is the only place that says which screen and which button. The skills tell you what to do. When a skill names an action in **bold**, find that action here.
+
+You work in PromptVu by controlling the PromptVu desktop app on the rep's computer, with the app open and the rep signed in. There is no other way in.
+
+## Get into PromptVu
+
+- PromptVu is a desktop app on the rep's computer, not a website. Don't look for it in a web browser.
+- Request access to the PromptVu app using your computer control (computer use in Claude, Work mode in ChatGPT). Wait for the rep to approve.
+- PromptVu needs full-screen control. If you're offered a choice, ask for full control, not background mode.
+- The rep must already be signed in. Never ask for their password. If PromptVu is closed or signed out, stop and tell the rep.
+
+## The screens
+
+- **Dashboard:** promptvu://promptvu-dashboard, inside the app. The left menu has Prompt Sequences, Projects, AI Prompt Agent, Outbound, Admin Settings and Settings.
+- **Prompt Sequences:** every sequence the rep owns or that was shared with them. Each row has Play, Duplicate, Settings, Share and Delete.
+- **List of all prompts:** opens when you click a sequence name. Each prompt has a pencil to edit it.
+- **LIVE CONTROL window:** where the sequence plays, with a banner that says not to share it.
+- **PromptVu Manager:** the panel on the right while a sequence plays. It lists every prompt in order.
+- **Presenter Screen:** the clean copy the rep shares on a call. You never open or share it.
+
+## Actions
+
+### Find a sequence
+Click Prompt Sequences in the left menu. Look for the sequence by name. Use this to check whether a sequence already exists before you create one.
+
+### Read all prompts
+Click the sequence name. "List of all prompts" shows each prompt's number, text and page.
+
+### Duplicate a sequence
+On the sequence's row, click Duplicate. If PromptVu asks for a name, use the name the skill gives you. If it doesn't ask, tell the rep the copy's name as it appears in the list. Make all changes in the copy.
+
+### Create a sequence
+Click "+ New Prompt Sequence". Enter a Sequence name and the Start URL. Leave "Autogenerate prompts with AI" unchecked. Click Save.
+
+### Play a sequence
+On the sequence's row, click Play. PromptVu opens the Start URL in the LIVE CONTROL window with the PromptVu Manager on the right.
+
+### Move between pages
+Click links and buttons in the page, the way the rep would on a call. Never type URLs. PromptVu follows the page you're on and shows that page's prompts.
+
+### Jump to a prompt
+While playing, click the prompt in the PromptVu Manager. PromptVu goes to its page and highlights its spot.
+
+### Edit a prompt's text
+While playing, click the prompt in the PromptVu Manager, click Edit, change the text and click Save. The page updates right away.
+
+### Add a prompt on the page
+While playing, go to the page, right-click the exact spot the rep will point at and choose Insert presenter note. Write the text.
+
+### Add a prompt from the PromptVu Manager
+While playing, go to the page. Click the plus button in the PromptVu Manager, write the text and click Save Note. The new prompt appears in the upper right corner of the page. Drag it to its spot. Use this for text boxes and other input fields, where right-click doesn't work yet.
+
+### Move a prompt on the same page
+Drag it to the new spot. PromptVu saves the spot when you let go. A short delay is normal.
+
+### Move a prompt to another page
+Edit the prompt and change its URL to the new page, then save. Jump to the prompt and drag it into place.
+
+### Reset a missing prompt
+If a prompt doesn't show on its page, click its reset button in the PromptVu Manager. It moves to the upper right corner. Drag it back into place.
+
+### Check placement
+Play the sequence and jump to each prompt in order. Confirm it sits on the element it talks about. On screens that change without the URL changing (tabs, pop-ups, wizard steps), check it shows on the right screen.
+
+### Read the ICP Playbook
+Click Outbound in the left menu and open the ICP Playbook.
+
+## Known issues today
+
+- Right-click doesn't add a prompt on text boxes and other input fields. Use **Add a prompt from the PromptVu Manager**.
+- Two prompts with identical text on the same page can merge into one when saved. Give every prompt its own wording.
+- On screens that change without the URL changing, a prompt can show on the wrong screen or not at all. Report these to the rep instead of working around them.
+- Never resize, maximize or minimize the LIVE CONTROL window or the Presenter Screen. Their sizes are locked on purpose.

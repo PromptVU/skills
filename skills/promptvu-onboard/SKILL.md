@@ -5,17 +5,19 @@ description: Set up PromptVu for a rep the first time. Learns the rep's voice, b
 
 # Onboard a rep to PromptVu
 
-You're setting up a rep so every future demo you tailor in PromptVu sounds like them and shows real ROI. Do this once per product, not once per meeting.
+You're setting up a rep so every demo you tailor in PromptVu later sounds like them and shows real ROI. Do this once per product, not once per meeting.
 
-Before you start, read `references/working-in-promptvu.md` (how to get into PromptVu and the rules) and `references/writing-prompts.md` (how a good prompt reads).
+Read first: `references/rules.md` and `references/writing-prompts.md`.
 
-## Step 1: Get access
+Steps in the PromptVu app are written as **bold actions**. How to do each one is in `references/promptvu-app.md`.
 
-Follow "How to get in" in `references/working-in-promptvu.md`. Request access to the PromptVu desktop app first and wait for the rep to approve. If PromptVu is closed or signed out, stop and tell the rep.
+## What to do
 
-## Step 2: Get the basics
+### 1. Get into PromptVu
+**Get into PromptVu.** If it's closed or the rep is signed out, stop and tell them.
 
-Ask the rep for anything you don't already have. Ask once, as a short list:
+### 2. Get the basics
+Ask the rep, once, as a short list, for anything you don't already have:
 
 - What they sell and what it does
 - The product website
@@ -24,33 +26,27 @@ Ask the rep for anything you don't already have. Ask once, as a short list:
 - The ROI numbers they're allowed to use, and anything they should never say
 - Main competitors
 
-## Step 3: Learn their voice
-
-1. Open Prompt Sequences and read the prompts in their main demo.
+### 3. Learn their voice
+1. **Find a sequence** (their main demo) and **Read all prompts**.
 2. Read anything else they share: emails, call notes, call recordings.
 3. Write down how they sound in three to five bullets: sentence length, formality, phrases they use, how they handle numbers.
 4. If you still can't tell, ask for two or three examples of how they'd open a demo.
 
-## Step 4: Build the knowledge base
+### 4. Build the knowledge base
+Use everything available, read only:
 
-Use everything available:
+- The product website: home, product and feature pages, pricing, case studies, docs and help articles.
+- **Read the ICP Playbook** in PromptVu.
+- The product's own videos: demos, webinars, customer stories. Read transcripts if you can. If you can't, ask the rep to paste them.
+- If the rep has connected call recordings or a CRM to you, skim recent won deals for the pains and results buyers mention most.
 
-- Crawl the product website: home, product and feature pages, pricing, case studies, docs and help articles.
-- Read the ICP Playbook in PromptVu (Outbound).
-- Use the product's own videos: demos, webinars, customer stories. Read transcripts if you can. If you can't, ask the rep to paste them.
-- If the rep has call recordings or a CRM connected to you, skim the last few won deals for the pains and results buyers mention most.
+### 5. Map the demo
+Use the `promptvu-map-demo` skill if you have it. If not, follow its steps: walk the main demo page by page and note what each page shows and which buyer outcome it proves.
 
-Read only. Don't sign in to anything, submit anything or change anything outside PromptVu.
+### 6. Write it up and check it
+Write the knowledge base as a short document:
 
-## Step 5: Map the demo
-
-Run the `promptvu-map-demo` skill if you have it. If not: play the main sequence, click through the product the way the rep demos it, and note each page, the main things on it and which buyer outcome it proves.
-
-## Step 6: Write it up and check it
-
-Write the knowledge base as a short document with these sections:
-
-1. **Who it's for:** roles, industries, company size, triggers that make them buy
+1. **Who it's for:** roles, industries, company size, what makes them buy
 2. **Problems it solves:** in the buyer's words where possible
 3. **ROI by buyer type:** time saved, revenue gained, costs cut or risk reduced, with the numbers the rep is allowed to use
 4. **Proof points:** customers, results, quotes the rep can use
@@ -62,10 +58,12 @@ Write the knowledge base as a short document with these sections:
 
 Show it to the rep. Fix anything they correct.
 
-## Step 7: Save it
+### 7. Save it
+Save it in this AI as a file or project named "[PRODUCT] knowledge base". It lives in your AI, not in PromptVu. Tell the rep where it is. Every other PromptVu skill starts from it. Update it whenever the rep corrects you or the product changes.
 
-Save it as a file or in a project in this AI named "[PRODUCT] knowledge base". Tell the rep where it's saved. Every other PromptVu skill starts from it. Update it whenever the rep corrects you or the product changes.
+### 8. Wrap up
+Tell the rep in three lines: what you saved, where, and the one thing you'd still like from them to make it better.
 
-## Done
+## Actions used in the app
 
-Tell the rep in three lines: what you saved, where, and the one thing you'd still like from them to make it better (for example, two more customer results).
+Get into PromptVu · Find a sequence · Read all prompts · Read the ICP Playbook. Plus the actions in `promptvu-map-demo`.

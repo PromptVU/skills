@@ -1,48 +1,57 @@
 ---
 name: promptvu-big-demo
-description: Build PromptVu demos for a large deal with several stakeholders. Creates one tailored Prompt Sequence per stakeholder (for example CFO, VP Sales, IT) plus a run-of-show for the main group demo. Use when a rep says "big demo for [company]", "multi-stakeholder demo", "exec demo next week", "build demos for the buying committee" or "we're presenting to five people at [company]".
+description: Build PromptVu demos for a large deal with several stakeholders. Maps the buying committee, writes a run-of-show for the group demo and builds one tailored Prompt Sequence for the group plus one per stakeholder. Use when a rep says "big demo for [company]", "multi-stakeholder demo", "exec demo next week", "build demos for the buying committee" or "we're presenting to five people at [company]".
 ---
 
 # Build a big, multi-stakeholder demo
 
-Big deals have a buying committee. Each person cares about something different. This skill gives the rep the right words for each of them, and one plan for the room.
+Big deals have a buying committee. Each person cares about something different. This skill gives the rep the right words for each of them and one plan for the room.
 
-Before you start, read `references/working-in-promptvu.md` and `references/writing-prompts.md`.
+Read first: `references/rules.md` and `references/writing-prompts.md`.
 
-## Step 1: Map the buying committee
+Steps in the PromptVu app are written as **bold actions**. How to do each one is in `references/promptvu-app.md`.
 
-Pull from the CRM and calls if connected (see `promptvu-build-from-calls`). Otherwise ask the rep. For each person:
+## What to do
 
-| Person | Role | What they own | What they care about | Their likely objection | Signs off? |
+### 1. Map the buying committee
+Use the rep's connected calls and CRM if they have them (see `promptvu-build-from-calls`). Otherwise ask the rep. For each person:
+
+| Person | Role | What they own | What they care about | Likely objection | Signs off? |
 |---|---|---|---|---|---|
 
 Confirm the table with the rep before building anything.
 
-## Step 2: Plan the main demo
-
-Write a run-of-show for the group session:
+### 2. Write the run-of-show
+For the group session:
 
 1. **Open:** the business problem everyone agrees on, in one sentence
-2. **Order of pages:** which page, for whom, and the outcome it proves
+2. **Page order:** which page, for whom and the outcome it proves
 3. **Hand-offs:** where the rep turns to a specific person ("Sarah, this is the part your team lives in")
-4. **Time check:** a rough time per section so the rep doesn't run out
+4. **Time check:** a rough time per section
 5. **Close:** the next step to ask for, and who needs to agree
 
-## Step 3: Build the sequences
+### 3. Build the group sequence
+1. **Get into PromptVu**, **Find a sequence** (the rep's base demo) and **Duplicate a sequence**. Use the name "[SEQUENCE NAME] - [COMPANY] group" if PromptVu asks for one.
+2. **Play a sequence** (the copy). For each prompt, **Jump to a prompt** and **Edit a prompt's text** so it speaks to the room, with a hand-off line where a specific stakeholder's priority comes up.
+3. Add prompts where the run-of-show needs a moment that isn't there: **Move between pages**, then **Add a prompt on the page** (or **Add a prompt from the PromptVu Manager** for text boxes).
 
-1. Follow "How to get in" in `references/working-in-promptvu.md`.
-2. Check Prompt Sequences first.
-3. Duplicate the rep's base demo for the group session. Name it "[SEQUENCE NAME] - [COMPANY] group". Write prompts that speak to the room, with a hand-off line where a specific stakeholder's priority comes up.
-4. For each stakeholder who will get their own follow-up session, duplicate again: "[SEQUENCE NAME] - [COMPANY] [ROLE]". Rewrite every prompt for that one person.
-5. Give every prompt on a page its own wording.
-6. Play each sequence once and check placement.
+### 4. Build one sequence per stakeholder
+For each stakeholder who will get their own follow-up session, **Duplicate a sequence** from the base demo again ("[SEQUENCE NAME] - [COMPANY] [ROLE]") and rewrite every prompt for that one person, the same way.
 
-## Step 4: Report
+Give every prompt on a page its own wording.
 
+### 5. Check
+**Check placement** in every sequence you built.
+
+### 6. Report
 Give the rep:
 
 1. The buying committee table
 2. The run-of-show
 3. Each sequence name and what's different about it
-4. Top three risks in the room and the prompt that handles each
+4. The top three risks in the room and the prompt that handles each
 5. Facts to confirm before the meeting
+
+## Actions used in the app
+
+Get into PromptVu · Find a sequence · Duplicate a sequence · Play a sequence · Jump to a prompt · Edit a prompt's text · Move between pages · Add a prompt on the page · Add a prompt from the PromptVu Manager · Check placement

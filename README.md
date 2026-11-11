@@ -11,7 +11,14 @@ Skills that teach your AI (Claude, ChatGPT and others) to run PromptVu for you. 
 | `promptvu-big-demo` | One sequence per stakeholder plus a run-of-show for the group demo | "Build the demo for Acme's buying committee" |
 | `promptvu-sequence-qa` | Checks every prompt and its placement, and tells you what to fix | "Is my Acme demo ready?" |
 
-Each skill includes two reference files: `working-in-promptvu.md` (how to get into PromptVu, where things are, the rules) and `writing-prompts.md` (how a good prompt reads).
+Each skill keeps what to do separate from how to do it in the app:
+
+- `SKILL.md`: the method, step by step. Steps in the PromptVu app are named as **bold actions**.
+- `references/rules.md`: the rules every skill follows.
+- `references/writing-prompts.md`: what a good prompt reads like.
+- `references/promptvu-app.md`: how to do each bold action in the PromptVu app: which screen, which button. This is the only file that changes when the app changes.
+
+Your AI does everything by controlling the PromptVu desktop app on your computer, with the app open and you signed in.
 
 ## What you need
 
@@ -21,7 +28,6 @@ Each skill includes two reference files: `working-in-promptvu.md` (how to get in
   - **ChatGPT:** desktop app in Work mode. Allow screen recording and "Always allow" for PromptVu.
 - Optional: your call recorder (Gong, Zoom, Fathom and others) and CRM (Salesforce, HubSpot) connected to your AI, for `promptvu-build-from-calls` and `promptvu-big-demo`.
 
-When the PromptVu connector launches, these skills use it automatically and won't need control of your screen.
 
 ## Install
 
