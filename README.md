@@ -27,7 +27,7 @@ When the PromptVu connector launches, these skills use it automatically and won'
 
 ### Claude app
 
-1. Download the skill zips (one per skill).
+1. Download the skill zips from the [`dist`](dist) folder (one per skill), or [all six at once](https://github.com/PromptVU/skills/raw/main/dist/promptvu-skills.zip).
 2. In the Claude desktop app, open Settings and find Skills.
 3. Upload each zip and turn it on.
 
