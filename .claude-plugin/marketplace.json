@@ -1,0 +1,11 @@
+{
+  "name": "promptvu",
+  "owner": { "name": "PromptVu", "url": "https://promptvu.com" },
+  "plugins": [
+    {
+      "name": "promptvu",
+      "source": "./",
+      "description": "Skills that teach your AI to run PromptVu, from onboarding to tailoring every demo."
+    }
+  ]
+}

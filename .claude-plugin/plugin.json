@@ -1,0 +1,7 @@
+{
+  "name": "promptvu",
+  "version": "1.0.0",
+  "description": "Skills that teach your AI to run PromptVu: onboard, map your demo, tailor it for each meeting, build it from calls and CRM data, prep big multi-stakeholder demos and QA a sequence before you present.",
+  "author": { "name": "PromptVu", "url": "https://promptvu.com" },
+  "homepage": "https://promptvu.com/ai-guide.html"
+}
