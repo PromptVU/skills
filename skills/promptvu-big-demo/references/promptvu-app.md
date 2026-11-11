@@ -64,7 +64,7 @@ While playing, go to the page, right-click the exact spot the rep will point at 
 While playing, go to the page. Click the plus button in the PromptVu Manager, write the text and click Save Note. The new prompt appears in the upper right corner of the page. Drag it to its spot. Use this for text boxes and other input fields, where right-click doesn't work yet.
 
 ### Reorder prompts
-In the sequence's list of prompts, drag and drop a prompt to its new place in the order. The rep presents the prompts in this order.
+In the sequence's list of prompts, drag and drop a prompt to its new place. This is the order the prompts play in.
 
 ### Move a prompt on the same page
 Drag it to the new spot. PromptVu saves the spot when you let go. A short delay is normal.
