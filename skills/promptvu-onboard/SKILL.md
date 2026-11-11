@@ -25,23 +25,26 @@ Ask the rep, once, as a short list, for anything you don't already have:
 - Their main demo in PromptVu (the sequence name)
 - The ROI numbers they're allowed to use, and anything they should never say
 - Main competitors
+- A recording or transcript of one of their real demos, which product it covers and which Prompt Sequence it matches. A transcript works best, and a real customer call beats a solo walkthrough.
 
 ### 3. Learn their voice
-1. **Find a sequence** (their main demo) and **Read all prompts**.
-2. Read anything else they share: emails, call notes, call recordings.
-3. Write down how they sound in three to five bullets: sentence length, formality, phrases they use, how they handle numbers.
-4. If you still can't tell, ask for two or three examples of how they'd open a demo.
+1. Start with the demo recording or transcript. It shows how they talk, what they emphasize and the order they show their screens. If they didn't give you one, ask for one.
+2. **Find a sequence** (their main demo) and **Read all prompts**.
+3. Read anything else they share: emails, call notes.
+4. Write down how they sound in three to five bullets: sentence length, formality, phrases they use, how they handle numbers.
+5. If there's no recording and you still can't tell, ask for two or three examples of how they'd open a demo.
 
 ### 4. Build the knowledge base
 Use everything available, read only:
 
 - The product website: home, product and feature pages, pricing, case studies, docs and help articles.
 - **Read the ICP Playbook** in PromptVu.
+- The demo recording or transcript: the claims the rep makes, the questions buyers ask and how the rep answers objections.
 - The product's own videos: demos, webinars, customer stories. Read transcripts if you can. If you can't, ask the rep to paste them.
 - If the rep has connected call recordings or a CRM to you, skim recent won deals for the pains and results buyers mention most.
 
 ### 5. Map the demo
-Use the `promptvu-map-demo` skill if you have it. If not, follow its steps: walk the main demo page by page and note what each page shows and which buyer outcome it proves.
+Use the `promptvu-map-demo` skill if you have it. If not, follow its steps: walk the main demo page by page, in the order the demo recording shows, and note what each page shows and which buyer outcome it proves.
 
 ### 6. Write it up and check it
 Write the knowledge base as a short document:

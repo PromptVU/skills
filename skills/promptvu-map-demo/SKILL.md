@@ -15,7 +15,7 @@ Steps in the PromptVu app are written as **bold actions**. How to do each one is
 
 ### 1. Pick the demo
 1. **Get into PromptVu.**
-2. Ask the rep which sequence is their main demo, unless the knowledge base already says.
+2. Ask the rep which sequence is their main demo, unless the knowledge base already says. If they have a recording or transcript of a real demo, use it to learn the order they click through and what they say on each screen.
 3. **Find a sequence.** If it doesn't exist yet, ask the rep for the Start URL and the order they usually click through, then **Create a sequence** with that Start URL.
 
 ### 2. Walk it
