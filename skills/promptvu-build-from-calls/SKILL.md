@@ -53,7 +53,7 @@ Using the demo map in the rep's knowledge base (or run `promptvu-map-demo` first
 3. Make sure every promise from the call brief has a moment in the demo.
 
 ### 5. Build the sequence
-1. **Get into PromptVu**, **Find a sequence** (the rep's base demo) and **Duplicate a sequence**, then **Rename a sequence** to "[SEQUENCE NAME] - [BUYER]". Work only in the copy.
+1. **Get into PromptVu**, **Find a sequence** (the rep's Master) and **Duplicate a sequence**, then **Rename a sequence** to "[SEQUENCE NAME] - [BUYER]". Work only in the copy.
 2. For each prompt in the copy, **Edit a prompt's text** around the call brief. Use the buyer's own words and numbers: "You said month-end close takes nine days. This is where that drops to two."
 3. Where a promise or pain has no moment yet, **Play a sequence** (the copy), **Move between pages** to the right page and **Add a prompt on the page** (or **Add a prompt from the PromptVu Manager** for text boxes).
 4. **Reorder prompts** to match the order you decided.

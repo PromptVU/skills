@@ -31,7 +31,7 @@ For the group session:
 5. **Close:** the next step to ask for, and who needs to agree
 
 ### 3. Build the group sequence
-1. **Get into PromptVu**, **Find a sequence** (the rep's base demo) and **Duplicate a sequence**, then **Rename a sequence** to "[SEQUENCE NAME] - [COMPANY] group".
+1. **Get into PromptVu**, **Find a sequence** (the rep's Master) and **Duplicate a sequence**, then **Rename a sequence** to "[SEQUENCE NAME] - [COMPANY] group".
 2. For each prompt in the copy, **Edit a prompt's text** so it speaks to the room, with a hand-off line where a specific stakeholder's priority comes up. **Reorder prompts** to match the run-of-show.
 3. Add prompts where the run-of-show needs a moment that isn't there: **Play a sequence** (the copy), **Move between pages**, then **Add a prompt on the page** (or **Add a prompt from the PromptVu Manager** for text boxes).
 

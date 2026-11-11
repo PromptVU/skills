@@ -14,7 +14,7 @@ Steps in the PromptVu app are written as **bold actions**. How to do each one is
 ### 1. Get what you need
 Ask once, as a short list, for anything missing:
 
-- The sequence to start from
+- The sequence to start from, usually their Master
 - Who they're meeting: name, role, company
 - What the buyer cares about: top two or three priorities
 - Objections they expect

@@ -6,7 +6,8 @@ These are about what to do, not how. They don't change when the app changes.
 
 - Only work on the sequence the rep names.
 - Check whether a sequence already exists before creating a new one.
-- Duplicate before you change anything. Change only the copy.
+- Duplicate before you change a sequence the rep already has. Change only the copy.
+- The rep's Master is their best current demo, or the "[PRODUCT] demo - Master" you build with them. Never edit the Master for a single meeting. Duplicate it and edit the copy.
 - Never delete a sequence or a prompt unless the rep asks.
 - Never share a sequence or change admin settings.
 - Never start a screen share. That's the rep's call.
