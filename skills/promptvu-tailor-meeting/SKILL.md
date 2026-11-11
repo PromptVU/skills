@@ -34,6 +34,8 @@ Write a short buyer brief:
 - The ROI angle that matters most to them
 
 ### 3. Plan the rewrite
+Start from the demo plan in the knowledge base. Pick which "show if relevant" sections this buyer needs and which to suggest skipping, so the demo still fits the time.
+
 **Get into PromptVu**, **Find a sequence** and **Read all prompts**. For each prompt, decide:
 
 - The new text: the buyer's problem, what this screen does about it, the result. One or two sentences, in the rep's voice, with one specific.

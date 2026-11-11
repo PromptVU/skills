@@ -4,8 +4,8 @@ Skills that teach your AI (Claude, ChatGPT and others) to run PromptVu for you. 
 
 | Skill | What it does | Say something like |
 |---|---|---|
-| `promptvu-onboard` | Learns your voice, builds and saves a knowledge base about what you sell, maps your demo | "Set me up with PromptVu" |
-| `promptvu-map-demo` | Walks your product page by page and records what each page proves | "Map my demo" |
+| `promptvu-onboard` | Looks at your account, asks five questions, learns your voice, builds a knowledge base, tours your product, plans your demo and builds your Master | "Set me up with PromptVu" |
+| `promptvu-map-demo` | Tours your product, maps your demo page by page and drafts a timed 30 to 45 minute demo plan | "Map my demo" |
 | `promptvu-tailor-meeting` | Researches the buyer, duplicates your sequence and rewrites every prompt for them | "Prep my demo for Acme tomorrow" |
 | `promptvu-build-from-calls` | Pulls your call recordings and CRM, then builds the demo around what the buyer said | "Use my last two calls with Acme and build the demo" |
 | `promptvu-big-demo` | One sequence per stakeholder plus a run-of-show for the group demo | "Build the demo for Acme's buying committee" |

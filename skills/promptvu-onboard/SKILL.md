@@ -1,6 +1,6 @@
 ---
 name: promptvu-onboard
-description: Set up PromptVu for a rep the first time. Looks at their account, asks five questions, learns the rep's voice, builds and saves a knowledge base about what they sell and the ROI it delivers, maps their demo and builds a Master sequence if they don't have one. Use when a rep says "set me up with PromptVu", "learn my product", "onboard me", "build my knowledge base" or starts using PromptVu with their AI for the first time.
+description: Set up PromptVu for a rep the first time. Looks at their account, asks five questions, learns the rep's voice, builds and saves a knowledge base about what they sell and the ROI it delivers, tours the product, plans a 30 to 45 minute demo with them and builds a Master sequence if they don't have one. Use when a rep says "set me up with PromptVu", "learn my product", "onboard me", "build my knowledge base" or starts using PromptVu with their AI for the first time.
 ---
 
 # Onboard a rep to PromptVu
@@ -49,10 +49,16 @@ Use everything available, read only:
 
 Ask the rep for what you can't find: top use cases, the ROI it delivers and main competitors.
 
-### 7. Map the demo
-Use the `promptvu-map-demo` skill if you have it. If not, follow its steps: walk the Master page by page, in the order the demo recording shows, and note what each page shows and which buyer outcome it proves.
+### 7. Tour the product and plan the demo
+This is the most important step. Use the `promptvu-map-demo` skill if you have it. If not, follow its steps:
 
-If the rep has no sequence for this product, **Create a sequence** named "[PRODUCT] demo - Master" with the page their demo starts on as the Start URL. Use the recording for the screen order. If there's no recording, ask the rep to click through the demo once and tell you the screens.
+1. If the rep has no sequence for this product, **Create a sequence** named "[PRODUCT] demo - Master" with the page their demo starts on as the Start URL.
+2. **Play a sequence** (the Master). If the product asks for a sign-in, ask the rep to sign in themselves inside PromptVu and wait.
+3. Tour the product: **Move between pages** through every area in its main menu, and one level down. List each area, what it does and the buyer outcome it proves.
+4. Map the rep's demo page by page, in the order the recording shows. If there's no recording, ask the rep to click through the demo once and tell you the screens.
+5. Compare the two: what's worth adding, what's worth cutting and what could trip up a live demo.
+6. Draft a demo plan that fits the rep's demo length (30 to 45 minutes if they don't say): open and agenda, three or four main sections that each prove one buyer outcome, and a wrap with the next step. Mark every screen must show, show if relevant or skip.
+7. Get the rep's approval on the plan before you build any prompts.
 
 ### 8. Write it up and check it
 Write the knowledge base as a short document:
@@ -65,7 +71,9 @@ Write the knowledge base as a short document:
 6. **Competitors:** where we win, where we don't
 7. **Never say:** banned claims, pricing rules
 8. **The rep's voice:** the bullets from step 5
-9. **Demo map:** from step 7
+9. **Product tour:** every area, what it does and the buyer outcome it proves
+10. **Demo map:** the rep's demo, page by page
+11. **Demo plan:** the approved plan from step 7
 
 Show it to the rep. Fix anything they correct.
 
@@ -75,8 +83,8 @@ Save it in this AI as a file or project named "[PRODUCT] knowledge base". It liv
 ### 10. Draft the Master's prompts
 Only if you created the Master in step 7. Follow `references/writing-prompts.md`.
 
-1. **Play a sequence** (the Master) and **Move between pages** in the order of the demo map.
-2. Write a first draft of every prompt: **Add a prompt on the page**, or **Add a prompt from the PromptVu Manager** for text boxes.
+1. **Play a sequence** (the Master) and **Move between pages** in the order of the demo plan.
+2. Write a first draft of a prompt for every point to make on every must-show screen. Add "show if relevant" screens only if the rep wants them in the Master. Use **Add a prompt on the page**, or **Add a prompt from the PromptVu Manager** for text boxes.
 3. Ask the rep to press Play and click through it with you once. Fix what they correct with **Edit a prompt's text**.
 4. **Check placement** for every prompt.
 

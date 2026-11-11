@@ -41,7 +41,7 @@ Only click to move around in the product. Don't submit or change anything.
 ### 4. Report
 Give the rep:
 
-1. **Verdict:** ready, ready with fixes, or not ready
+1. **Verdict:** ready, ready with fixes or not ready
 2. **Must fix:** wrong facts, wrong placement, missing prompts
 3. **Should fix:** weak prompts, with a suggested rewrite for each
 4. **Flow:** pages you'd reorder, skip or add for this buyer
