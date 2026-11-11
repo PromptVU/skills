@@ -1,6 +1,6 @@
 # How to do it in the PromptVu app
 
-This file is the only place that says which screen and which button. The skills tell you what to do. When a skill names an action in **bold**, find that action here.
+Only this part says which screen and which button. The skills and rules say what to do. When a skill names an action in **bold**, find that action here.
 
 You work in PromptVu by controlling the PromptVu desktop app on the rep's computer, with the app open and the rep signed in. There is no other way in.
 
@@ -11,11 +11,19 @@ You work in PromptVu by controlling the PromptVu desktop app on the rep's comput
 - PromptVu needs full-screen control. If you're offered a choice, ask for full control, not background mode.
 - The rep must already be signed in. Never ask for their password. If PromptVu is closed or signed out, stop and tell the rep.
 
+## Words PromptVu uses
+
+- **Prompt:** a short script attached to an exact spot on a web page. It tells the rep what to show and what to say at that moment. PromptVu remembers the page and the spot.
+- **Prompt Sequence:** a whole demo. The prompts, in order, across every page the rep presents, starting from a Start URL.
+- **Start URL:** the page a Prompt Sequence opens on when you press Play.
+- **Owner:** the person who created a sequence. Only the owner can edit it. Anyone it's shared with can run it or duplicate it.
+- **Projects, AI Prompt Agent and Outbound:** PromptVu's own built-in AI features, all in beta. Outbound holds the ICP Playbook, which is useful context about who the rep sells to.
+
 ## The screens
 
 - **Dashboard:** promptvu://promptvu-dashboard, inside the app. The left menu has Prompt Sequences, Projects, AI Prompt Agent, Outbound, Admin Settings and Settings.
 - **Prompt Sequences:** every sequence the rep owns or that was shared with them. Each row has Play, Duplicate, Settings, Share and Delete.
-- **List of all prompts:** opens when you click a sequence name. Each prompt has a pencil to edit it.
+- **List of all prompts:** opens when you click a sequence name.
 - **LIVE CONTROL window:** where the sequence plays, with a banner that says not to share it.
 - **PromptVu Manager:** the panel on the right while a sequence plays. It lists every prompt in order.
 - **Presenter Screen:** the clean copy the rep shares on a call. You never open or share it.
@@ -29,7 +37,7 @@ Click Prompt Sequences in the left menu. Look for the sequence by name. Use this
 Click the sequence name. "List of all prompts" shows each prompt's number, text and page.
 
 ### Duplicate a sequence
-On the sequence's row, click Duplicate. If PromptVu asks for a name, use the name the skill gives you. If it doesn't ask, tell the rep the copy's name as it appears in the list. Make all changes in the copy.
+On the sequence's row, click Duplicate. If PromptVu asks for a name, use the name you were given. If it doesn't ask, tell the rep the copy's name as it appears in the list. Make all changes in the copy.
 
 ### Create a sequence
 Click "+ New Prompt Sequence". Enter a Sequence name and the Start URL. Leave "Autogenerate prompts with AI" unchecked. Click Save.
