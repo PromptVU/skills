@@ -31,12 +31,14 @@ For the group session:
 5. **Close:** the next step to ask for, and who needs to agree
 
 ### 3. Build the group sequence
-1. **Get into PromptVu**, **Find a sequence** (the rep's base demo) and **Duplicate a sequence**. Use the name "[SEQUENCE NAME] - [COMPANY] group" if PromptVu asks for one.
-2. **Play a sequence** (the copy). For each prompt, **Jump to a prompt** and **Edit a prompt's text** so it speaks to the room, with a hand-off line where a specific stakeholder's priority comes up.
-3. Add prompts where the run-of-show needs a moment that isn't there: **Move between pages**, then **Add a prompt on the page** (or **Add a prompt from the PromptVu Manager** for text boxes).
+1. **Get into PromptVu**, **Find a sequence** (the rep's base demo) and **Duplicate a sequence**. This copy is for the group session.
+2. For each prompt in the copy, **Edit a prompt's text** so it speaks to the room, with a hand-off line where a specific stakeholder's priority comes up.
+3. Add prompts where the run-of-show needs a moment that isn't there: **Play a sequence** (the copy), **Move between pages**, then **Add a prompt on the page** (or **Add a prompt from the PromptVu Manager** for text boxes).
 
 ### 4. Build one sequence per stakeholder
-For each stakeholder who will get their own follow-up session, **Duplicate a sequence** from the base demo again ("[SEQUENCE NAME] - [COMPANY] [ROLE]") and rewrite every prompt for that one person, the same way.
+For each stakeholder who will get their own follow-up session, **Duplicate a sequence** from the base demo again and rewrite every prompt for that one person, the same way.
+
+Copies don't get their own names, so make one copy at a time. Finish it and tell the rep which copy is for whom before you make the next one.
 
 Give every prompt on a page its own wording.
 
@@ -48,10 +50,10 @@ Give the rep:
 
 1. The buying committee table
 2. The run-of-show
-3. Each sequence name and what's different about it
+3. Each copy, who it's for and what's different about it
 4. The top three risks in the room and the prompt that handles each
 5. Facts to confirm before the meeting
 
 ## Actions used in the app
 
-Get into PromptVu · Find a sequence · Duplicate a sequence · Play a sequence · Jump to a prompt · Edit a prompt's text · Move between pages · Add a prompt on the page · Add a prompt from the PromptVu Manager · Check placement
+Get into PromptVu · Find a sequence · Duplicate a sequence · Edit a prompt's text · Play a sequence · Move between pages · Add a prompt on the page · Add a prompt from the PromptVu Manager · Check placement

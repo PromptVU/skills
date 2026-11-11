@@ -23,7 +23,7 @@ You work in PromptVu by controlling the PromptVu desktop app on the rep's comput
 
 - **Dashboard:** promptvu://promptvu-dashboard, inside the app. The left menu has Prompt Sequences, Projects, AI Prompt Agent, Outbound, Admin Settings and Settings.
 - **Prompt Sequences:** every sequence the rep owns or that was shared with them. Each row has Play, Duplicate, Settings, Share and Delete.
-- **List of all prompts:** opens when you click a sequence name.
+- **List of all prompts:** opens when you click a sequence name. Each prompt has a pencil to edit it.
 - **LIVE CONTROL window:** where the sequence plays, with a banner that says not to share it.
 - **PromptVu Manager:** the panel on the right while a sequence plays. It lists every prompt in order.
 - **Presenter Screen:** the clean copy the rep shares on a call. You never open or share it.
@@ -37,7 +37,7 @@ Click Prompt Sequences in the left menu. Look for the sequence by name. Use this
 Click the sequence name. "List of all prompts" shows each prompt's number, text and page.
 
 ### Duplicate a sequence
-On the sequence's row, click Duplicate. If PromptVu asks for a name, use the name you were given. If it doesn't ask, tell the rep the copy's name as it appears in the list. Make all changes in the copy.
+On the sequence's row, click Duplicate. PromptVu makes the copy right away and doesn't ask for a name. The copy shows up as a new row in Prompt Sequences. Make sure you open the copy, not the original. If you can't tell them apart, stop and ask the rep. Make all changes in the copy, and tell the rep the copy's name exactly as it shows in the list.
 
 ### Create a sequence
 Click "+ New Prompt Sequence". Enter a Sequence name and the Start URL. Leave "Autogenerate prompts with AI" unchecked. Click Save.
@@ -52,7 +52,7 @@ Click links and buttons in the page, the way the rep would on a call. Never type
 While playing, click the prompt in the PromptVu Manager. PromptVu goes to its page and highlights its spot.
 
 ### Edit a prompt's text
-While playing, click the prompt in the PromptVu Manager, click Edit, change the text and click Save. The page updates right away.
+Fastest, especially for many prompts: open the sequence's "List of all prompts", click the pencil next to the prompt, change the Prompt Text and click Save Changes. Or, while playing, click the prompt in the PromptVu Manager, click Edit, change the text and click Save. Either way, the prompt stays on its page and spot.
 
 ### Add a prompt on the page
 While playing, go to the page, right-click the exact spot the rep will point at and choose Insert presenter note. Write the text.

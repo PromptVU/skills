@@ -53,9 +53,9 @@ Using the demo map in the rep's knowledge base (or run `promptvu-map-demo` first
 3. Make sure every promise from the call brief has a moment in the demo.
 
 ### 5. Build the sequence
-1. **Get into PromptVu**, **Find a sequence** (the rep's base demo) and **Duplicate a sequence**. Use the name "[SEQUENCE NAME] - [BUYER]" if PromptVu asks for one.
-2. **Play a sequence** (the copy). For each prompt, **Jump to a prompt** and **Edit a prompt's text** around the call brief. Use the buyer's own words and numbers: "You said month-end close takes nine days. This is where that drops to two."
-3. Where a promise or pain has no moment yet, **Move between pages** to the right page and **Add a prompt on the page** (or **Add a prompt from the PromptVu Manager** for text boxes).
+1. **Get into PromptVu**, **Find a sequence** (the rep's base demo) and **Duplicate a sequence**. Work only in the copy.
+2. For each prompt in the copy, **Edit a prompt's text** around the call brief. Use the buyer's own words and numbers: "You said month-end close takes nine days. This is where that drops to two."
+3. Where a promise or pain has no moment yet, **Play a sequence** (the copy), **Move between pages** to the right page and **Add a prompt on the page** (or **Add a prompt from the PromptVu Manager** for text boxes).
 4. Give every prompt on a page its own wording.
 5. **Check placement.**
 
@@ -65,7 +65,7 @@ Prompts can be shared with teammates. Don't put personal details, compensation, 
 ### 7. Report
 Give the rep:
 
-1. The new sequence name
+1. The copy's name, exactly as it shows in Prompt Sequences
 2. The call brief, with quotes and dates
 3. Every change by prompt number and page
 4. The suggested page order for the call
@@ -74,4 +74,4 @@ Give the rep:
 
 ## Actions used in the app
 
-Get into PromptVu · Find a sequence · Duplicate a sequence · Play a sequence · Jump to a prompt · Edit a prompt's text · Move between pages · Add a prompt on the page · Add a prompt from the PromptVu Manager · Check placement
+Get into PromptVu · Find a sequence · Duplicate a sequence · Edit a prompt's text · Play a sequence · Move between pages · Add a prompt on the page · Add a prompt from the PromptVu Manager · Check placement
