@@ -43,10 +43,10 @@ Write a short buyer brief:
 Give every prompt on a page its own wording.
 
 ### 4. Make the copy
-**Duplicate a sequence.** Work only in the copy.
+**Duplicate a sequence**, then **Rename a sequence** to "[SEQUENCE NAME] - [BUYER]". Work only in the copy.
 
 ### 5. Rewrite
-Go prompt by prompt in the copy and **Edit a prompt's text**. Keep every prompt on its page and spot.
+Go prompt by prompt in the copy and **Edit a prompt's text**. Keep every prompt on its page and spot. If a different order tells a stronger story for this buyer, **Reorder prompts**.
 
 For new prompts, **Play a sequence** (the copy), **Move between pages** to the page, then **Add a prompt on the page**, or **Add a prompt from the PromptVu Manager** for text boxes.
 
@@ -56,12 +56,12 @@ For new prompts, **Play a sequence** (the copy), **Move between pages** to the p
 ### 7. Report
 Give the rep:
 
-1. The copy's name, exactly as it shows in Prompt Sequences
+1. The name of the new sequence
 2. A three-line buyer brief
 3. Every change, by prompt number and page, with old and new text
-4. Pages you'd skip, and why
+4. Any reordering, and pages you'd skip, and why
 5. Facts you need confirmed before the call
 
 ## Actions used in the app
 
-Get into PromptVu · Find a sequence · Read all prompts · Duplicate a sequence · Edit a prompt's text · Play a sequence · Move between pages · Add a prompt on the page · Add a prompt from the PromptVu Manager · Check placement · Reset a missing prompt
+Get into PromptVu · Find a sequence · Read all prompts · Duplicate a sequence · Rename a sequence · Edit a prompt's text · Reorder prompts · Play a sequence · Move between pages · Add a prompt on the page · Add a prompt from the PromptVu Manager · Check placement · Reset a missing prompt

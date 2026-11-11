@@ -44,7 +44,7 @@ Give the rep:
 1. **Verdict:** ready, ready with fixes, or not ready
 2. **Must fix:** wrong facts, wrong placement, missing prompts
 3. **Should fix:** weak prompts, with a suggested rewrite for each
-4. **Flow:** pages you'd skip or add for this buyer
+4. **Flow:** pages you'd reorder, skip or add for this buyer
 5. **Count:** prompts checked, passed, flagged
 
 Offer to make the fixes in a duplicate.

@@ -37,7 +37,10 @@ Click Prompt Sequences in the left menu. Look for the sequence by name. Use this
 Click the sequence name. "List of all prompts" shows each prompt's number, text and page.
 
 ### Duplicate a sequence
-On the sequence's row, click Duplicate. PromptVu makes the copy right away and doesn't ask for a name. The copy shows up as a new row in Prompt Sequences. Make sure you open the copy, not the original. If you can't tell them apart, stop and ask the rep. Make all changes in the copy, and tell the rep the copy's name exactly as it shows in the list.
+On the sequence's row, click Duplicate. PromptVu makes the copy right away without asking for a name. The copy shows up in Prompt Sequences as "[original name]_duplicate". Rename it right away (see **Rename a sequence**) so it's never confused with the original. Make all changes in the copy.
+
+### Rename a sequence
+On the sequence's row, click Settings, change the Sequence name and save. Use the name you were given, for example "Platform demo - Acme CFO".
 
 ### Create a sequence
 Click "+ New Prompt Sequence". Enter a Sequence name and the Start URL. Leave "Autogenerate prompts with AI" unchecked. Click Save.
@@ -59,6 +62,9 @@ While playing, go to the page, right-click the exact spot the rep will point at 
 
 ### Add a prompt from the PromptVu Manager
 While playing, go to the page. Click the plus button in the PromptVu Manager, write the text and click Save Note. The new prompt appears in the upper right corner of the page. Drag it to its spot. Use this for text boxes and other input fields, where right-click doesn't work yet.
+
+### Reorder prompts
+In the sequence's list of prompts, drag and drop a prompt to its new place in the order. The rep presents the prompts in this order.
 
 ### Move a prompt on the same page
 Drag it to the new spot. PromptVu saves the spot when you let go. A short delay is normal.

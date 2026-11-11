@@ -49,15 +49,16 @@ Mark anything you inferred rather than heard as "inferred".
 Using the demo map in the rep's knowledge base (or run `promptvu-map-demo` first):
 
 1. For each pain or priority, pick the page and element that answers it.
-2. Suggest the order of pages that tells the strongest story for this buyer. The rep follows that order on the call.
+2. Decide the order of pages that tells the strongest story for this buyer.
 3. Make sure every promise from the call brief has a moment in the demo.
 
 ### 5. Build the sequence
-1. **Get into PromptVu**, **Find a sequence** (the rep's base demo) and **Duplicate a sequence**. Work only in the copy.
+1. **Get into PromptVu**, **Find a sequence** (the rep's base demo) and **Duplicate a sequence**, then **Rename a sequence** to "[SEQUENCE NAME] - [BUYER]". Work only in the copy.
 2. For each prompt in the copy, **Edit a prompt's text** around the call brief. Use the buyer's own words and numbers: "You said month-end close takes nine days. This is where that drops to two."
 3. Where a promise or pain has no moment yet, **Play a sequence** (the copy), **Move between pages** to the right page and **Add a prompt on the page** (or **Add a prompt from the PromptVu Manager** for text boxes).
-4. Give every prompt on a page its own wording.
-5. **Check placement.**
+4. **Reorder prompts** to match the order you decided.
+5. Give every prompt on a page its own wording.
+6. **Check placement.**
 
 ### 6. Keep it private
 Prompts can be shared with teammates. Don't put personal details, compensation, health or anything said off the record into a prompt.
@@ -65,13 +66,13 @@ Prompts can be shared with teammates. Don't put personal details, compensation, 
 ### 7. Report
 Give the rep:
 
-1. The copy's name, exactly as it shows in Prompt Sequences
+1. The name of the new sequence
 2. The call brief, with quotes and dates
 3. Every change by prompt number and page
-4. The suggested page order for the call
+4. The new page order and why
 5. Promises from past calls and where each is covered
 6. Gaps: things the buyer asked about that the demo can't show yet
 
 ## Actions used in the app
 
-Get into PromptVu · Find a sequence · Duplicate a sequence · Edit a prompt's text · Play a sequence · Move between pages · Add a prompt on the page · Add a prompt from the PromptVu Manager · Check placement
+Get into PromptVu · Find a sequence · Duplicate a sequence · Rename a sequence · Edit a prompt's text · Reorder prompts · Play a sequence · Move between pages · Add a prompt on the page · Add a prompt from the PromptVu Manager · Check placement
