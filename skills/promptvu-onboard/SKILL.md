@@ -13,6 +13,8 @@ Steps in the PromptVu app are written as **bold actions**. How to do each one is
 
 ## What to do
 
+Setup only needs the product. Don't ask about specific buyers, deals or calls here. That comes later, one meeting at a time, and only what the rep chooses to share.
+
 ### 1. Get into PromptVu
 **Get into PromptVu.** If it's closed or the rep is signed out, stop and tell them.
 
@@ -24,8 +26,8 @@ Ask as one short list. Skip anything the rep already told you.
 
 - What product are you demoing, and what is its website?
 - What page does your demo start on, and are you signed in to it inside PromptVu?
-- Do you have a recording or transcript of a real demo? A transcript works best, and a real customer call beats a solo walkthrough.
-- Who is your typical buyer, or who is your next meeting with?
+- Do you have a recording or transcript of yourself walking through the demo? It's optional. A solo walkthrough works best because it has no customer data in it.
+- Who is your typical buyer? A role, industry and company size is enough.
 - What numbers and customer names can you use, and what should you never say?
 
 ### 4. Find the Master
@@ -34,7 +36,7 @@ If the rep already has sequences, ask which one is their best current demo befor
 ### 5. Learn their voice
 1. Start with the demo recording or transcript. It shows how they talk, what they emphasize and the order they show their screens.
 2. If they have a Master, **Read all prompts** in it.
-3. Read anything else they share: emails, call notes.
+3. Use anything else they choose to give you, like a talk track or a slide deck.
 4. Write down how they sound in three to five bullets: sentence length, formality, phrases they use, how they handle numbers.
 5. If there's no recording and you still can't tell, ask for two or three examples of how they'd open a demo.
 
@@ -43,11 +45,10 @@ Use everything available, read only:
 
 - The product website: home, product and feature pages, pricing, case studies, docs and help articles.
 - **Read the ICP Playbook** in PromptVu.
-- The demo recording or transcript: the claims the rep makes, the questions buyers ask and how the rep answers objections.
+- The demo recording or transcript: the claims the rep makes and how they explain value.
 - The product's own videos: demos, webinars, customer stories. Read transcripts if you can. If you can't, ask the rep to paste them.
-- If the rep has connected call recordings or a CRM to you, skim recent won deals for the pains and results buyers mention most.
 
-Ask the rep for what you can't find: top use cases, the ROI it delivers and main competitors.
+Ask the rep for what you can't find: top use cases, the ROI it delivers, main competitors and the objections they hear most.
 
 ### 7. Tour the product and plan the demo
 This is the most important step. Use the `promptvu-map-demo` skill if you have it. If not, follow its steps:
@@ -89,7 +90,7 @@ Only if you created the Master in step 7. Follow `references/writing-prompts.md`
 4. **Check placement** for every prompt.
 
 ### 11. Wrap up
-Tell the rep in four lines: what you saved and where, the name of their Master, the one thing you'd still like from them to make it better, and that for a single meeting you'll always duplicate the Master and edit the copy, never the Master itself.
+Tell the rep in four lines: what you saved and where, the name of their Master, the one thing you'd still like from them to make it better, and what to tell you before a meeting: the buyer's role, company and what they care about. For a single meeting you'll always duplicate the Master and edit the copy, never the Master itself.
 
 ## Actions used in the app
 

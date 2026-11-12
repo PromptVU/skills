@@ -15,7 +15,7 @@ Steps in the PromptVu app are written as **bold actions**. How to do each one is
 Ask once, as a short list, for anything missing:
 
 - The sequence to start from, usually their Master
-- Who they're meeting: name, role, company
+- Who they're meeting: role and company
 - What the buyer cares about: top two or three priorities
 - Objections they expect
 - What they want out of the call: the next step
@@ -24,12 +24,12 @@ Ask once, as a short list, for anything missing:
 Start from the rep's saved "[PRODUCT] knowledge base". If there isn't one, tell the rep and offer to run `promptvu-onboard` first. You can continue with what they give you, but say the prompts will be weaker.
 
 ### 2. Research the buyer
-Read only. Look at the buyer's website, recent news and the person's role. If the rep has connected call recordings or a CRM to you, use `promptvu-build-from-calls` for that part.
+Read only. Look at the buyer's company website, recent news and what this role usually owns. If the rep attaches or pastes a call transcript or notes, use `promptvu-build-from-calls` for that part.
 
 Write a short buyer brief:
 
 - What the company does, size, industry
-- What this person owns and is measured on
+- What this role owns and is measured on
 - The two or three pains this demo should hit, in the buyer's words where you have them
 - The ROI angle that matters most to them
 

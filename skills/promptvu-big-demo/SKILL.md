@@ -14,10 +14,10 @@ Steps in the PromptVu app are written as **bold actions**. How to do each one is
 ## What to do
 
 ### 1. Map the buying committee
-Use the rep's connected calls and CRM if they have them (see `promptvu-build-from-calls`). Otherwise ask the rep. For each person:
+Ask the rep who will be in the room, by role. If the rep attaches or pastes call notes, use them too (see `promptvu-build-from-calls`). For each role:
 
-| Person | Role | What they own | What they care about | Likely objection | Signs off? |
-|---|---|---|---|---|---|
+| Role | What they own | What they care about | Likely objection | Signs off? |
+|---|---|---|---|---|
 
 Confirm the table with the rep before building anything.
 
@@ -26,7 +26,7 @@ For the group session:
 
 1. **Open:** the business problem everyone agrees on, in one sentence
 2. **Page order:** which page, for whom and the outcome it proves
-3. **Hand-offs:** where the rep turns to a specific person ("Sarah, this is the part your team lives in")
+3. **Hand-offs:** where the rep turns to a specific role ("For finance: this is the part your team lives in")
 4. **Time check:** a rough time per section
 5. **Close:** the next step to ask for, and who needs to agree
 
