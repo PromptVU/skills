@@ -915,3 +915,13 @@ a.btn-primary[href^="download.html"]::after,a.btn-primary[href$=".dmg"]::after{c
 .mp-card .mp-bars i:last-child,.mirror .mp-card .mp-bars i:last-child{background:#2563eb}
 .mp-badge{background:#16a34a}
 @media (max-width:640px){.mp-card[data-act="plan:1"] .m-note{right:auto;left:50%;transform:translateX(-50%);width:min(240px,calc(100vw - 72px))}}
+/* Homepage supporting line under the lead */
+.hero .lead.lead-support{margin-top:12px;font-size:.94em;color:var(--text-2)}
+/* Thank-you popup after an installer download */
+.pv-modal{position:fixed;inset:0;z-index:1000;display:flex;align-items:center;justify-content:center;padding:20px max(16px,env(safe-area-inset-left,0px));background:rgba(15,23,42,.35)}
+.pv-modal[hidden]{display:none}
+.pv-modal-box{position:relative;width:min(440px,100%);background:#fff;border:1px solid var(--border);border-radius:16px;box-shadow:0 24px 60px rgba(15,23,42,.25);padding:28px 26px 24px;font-family:Inter,system-ui,sans-serif}
+.pv-modal-box h2{font-size:21px;line-height:1.3;letter-spacing:-.01em;margin:0 28px 10px 0}
+.pv-modal-box p{font-size:16px;line-height:1.55;color:var(--text-2);margin:0 0 20px}
+.pv-modal-x{position:absolute;top:12px;right:12px;width:36px;height:36px;border:0;border-radius:10px;background:transparent;font-size:26px;line-height:1;color:var(--text-2);cursor:pointer}
+.pv-modal-x:hover,.pv-modal-x:focus-visible{background:#f1f5f9;color:#0f172a}

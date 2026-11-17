@@ -37,7 +37,7 @@ var PROMPTVU_GA_ID = 'G-5FT9DS4M61';
   });
 })();
 
-// Google Analytics 4: loads only when PROMPTVU_GA_ID is set. Tracks downloads, demo requests and AI brief copies.
+// Google Analytics 4: loads only when PROMPTVU_GA_ID is set. Tracks demo requests, AI brief copies and Windows waitlist clicks. Downloads are tracked below.
 (function () {
   var id = PROMPTVU_GA_ID;
   if (!id) return;
@@ -50,11 +50,93 @@ var PROMPTVU_GA_ID = 'G-5FT9DS4M61';
   document.addEventListener('click', function (e) {
     var a = e.target.closest('a,button'); if (!a) return;
     var href = a.getAttribute('href') || '', label = (a.textContent || '').trim();
-    if (/\.dmg($|\?)/.test(href)) gtag('event', 'download_mac', { page: location.pathname });
-    else if (/book a demo|request a demo/i.test(label)) gtag('event', 'book_demo_click', { page: location.pathname });
+    if (/\.dmg($|\?)/.test(href)) return; // handled by the download handoff below
+    if (/book a demo|request a demo/i.test(label)) gtag('event', 'book_demo_click', { page: location.pathname });
     else if (a.classList.contains('copy-btn')) gtag('event', 'copy_ai_brief', { which: a.getAttribute('data-copy') });
     else if (/windows waitlist/i.test(label)) gtag('event', 'windows_waitlist', { page: location.pathname });
   });
+})();
+
+// Installer downloads: anonymous download_id, UTM handoff, one GA4 'download' event and a thank-you popup.
+// Handoff for the app team. Cookies (first party, 30 days): pv_download_id, pv_utm_source, pv_utm_medium,
+// pv_utm_campaign, pv_utm_content. Hop: /download-file?download_id=&platform=&utm_source=&utm_medium=&utm_campaign=&utm_content=
+// which redirects (302) to the unchanged installer URL. trial_code and referral_code are never read, passed or stored.
+(function () {
+  var MAX_AGE = 30 * 86400;
+  var UTM = ['utm_source', 'utm_medium', 'utm_campaign', 'utm_content'];
+  var POPUP_KEY = 'pv_dl_popup_at';
+  function getC(n) { var m = document.cookie.match('(?:^|; )' + n + '=([^;]*)'); return m ? decodeURIComponent(m[1]) : ''; }
+  function setC(n, v) { document.cookie = n + '=' + encodeURIComponent(v) + '; Max-Age=' + MAX_AGE + '; Path=/; SameSite=Lax' + (location.protocol === 'https:' ? '; Secure' : ''); }
+  function uuid() {
+    if (window.crypto && crypto.randomUUID) return crypto.randomUUID();
+    var b = new Uint8Array(16); (window.crypto || window.msCrypto).getRandomValues(b);
+    b[6] = (b[6] & 15) | 64; b[8] = (b[8] & 63) | 128;
+    var h = Array.prototype.map.call(b, function (x) { return (x + 256).toString(16).slice(1); }).join('');
+    return h.slice(0, 8) + '-' + h.slice(8, 12) + '-' + h.slice(12, 16) + '-' + h.slice(16, 20) + '-' + h.slice(20);
+  }
+  // Keep UTM tags from the landing URL so they survive a click to another page.
+  try {
+    var q = new URLSearchParams(location.search);
+    UTM.forEach(function (k) { var v = q.get(k); if (v) setC('pv_' + k, v.slice(0, 150)); });
+  } catch (e) {}
+
+  function isInstaller(href) { return /\.dmg($|\?)/.test(href); }
+
+  document.addEventListener('click', function (e) {
+    var a = e.target.closest && e.target.closest('a[href]'); if (!a) return;
+    var href = a.getAttribute('href') || '';
+    if (!isInstaller(href)) return;
+    var id = getC('pv_download_id') || uuid();
+    setC('pv_download_id', id);
+    var p = { download_id: id, platform: 'mac' };
+    UTM.forEach(function (k) { var v = getC('pv_' + k); if (v) p[k] = v; });
+    if (window.gtag) gtag('event', 'download', p);
+    // Same-site hop, then the server sends the browser to the unchanged installer. New-tab clicks keep their default.
+    if (!(e.metaKey || e.ctrlKey || e.shiftKey || e.altKey || e.button > 0)) {
+      e.preventDefault();
+      var qs = Object.keys(p).map(function (k) { return encodeURIComponent(k) + '=' + encodeURIComponent(p[k]); }).join('&');
+      window.location.href = '/download-file?' + qs;
+    }
+    showThanks(a);
+  });
+
+  var modal, lastFocus;
+  function closeThanks() {
+    if (!modal) return;
+    modal.hidden = true; document.removeEventListener('keydown', onKey);
+    if (lastFocus && lastFocus.focus) lastFocus.focus();
+  }
+  function onKey(e) {
+    if (e.key === 'Escape') { closeThanks(); return; }
+    if (e.key === 'Tab') {
+      var f = modal.querySelectorAll('button'); var first = f[0], last = f[f.length - 1];
+      if (e.shiftKey && document.activeElement === first) { e.preventDefault(); last.focus(); }
+      else if (!e.shiftKey && document.activeElement === last) { e.preventDefault(); first.focus(); }
+    }
+  }
+  function showThanks(from) {
+    var now = Date.now(), seen = 0;
+    try { seen = parseInt(localStorage.getItem(POPUP_KEY) || '0', 10) || 0; } catch (e) {}
+    if (now - seen < 86400000) return;
+    try { localStorage.setItem(POPUP_KEY, String(now)); } catch (e) {}
+    if (!modal) {
+      modal = document.createElement('div');
+      modal.className = 'pv-modal';
+      modal.innerHTML = '<div class="pv-modal-box" role="dialog" aria-modal="true" aria-labelledby="pv-modal-h" aria-describedby="pv-modal-p">' +
+        '<button type="button" class="pv-modal-x" aria-label="Close">&times;</button>' +
+        '<h2 id="pv-modal-h">Thanks for downloading PromptVu</h2>' +
+        '<p id="pv-modal-p">Open the file and install PromptVu. After it opens, create your account in the app, then create your first Prompt Sequence.</p>' +
+        '<button type="button" class="btn btn-primary pv-modal-ok">Got it</button></div>';
+      document.body.appendChild(modal);
+      modal.addEventListener('click', function (e) { if (e.target === modal) closeThanks(); });
+      modal.querySelector('.pv-modal-x').addEventListener('click', closeThanks);
+      modal.querySelector('.pv-modal-ok').addEventListener('click', closeThanks);
+    }
+    lastFocus = from;
+    modal.hidden = false;
+    document.addEventListener('keydown', onKey);
+    setTimeout(function () { modal.querySelector('.pv-modal-ok').focus(); }, 30);
+  }
 })();
 
 // ---- v3: header state, current page, scroll reveals, hero tilt ----
